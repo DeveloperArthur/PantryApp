@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundresaize"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".RecoverActivity">
+
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="40dp"
+        android:text="@string/Redefinir_senha"
+        android:textColor="@color/colorTextLight"
+        />
+    <FrameLayout
+        android:layout_width="1dp"
+        android:layout_height="150dp"/>
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorTextLight"
+        android:text="@string/Didite_email"
+        />
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="Email:"
+        android:inputType="textEmailAddress"
+        android:textColorHint="@color/colorTextLight"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:onClick="enviarEmail"
+        android:textColor="@color/colorTextDark"
+        android:text="@string/Concluir"
+        />
+
+
+</LinearLayout>

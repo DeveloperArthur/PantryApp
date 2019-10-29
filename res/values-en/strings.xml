@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">PantryApp</string>
+    <string name="menu_inicio">Home</string>
+    <string name="menu_busca">Search</string>
+    <string name="menu_pedidos">Requests</string>
+    <string name="Entrar">Log in</string>
+    <string name="Usuario">User</string>
+    <string name="Senha">Password</string>
+    <string name="Criar_conta">Create an account</string>
+    <string name="Esqueceu_a_senha">Forgot password?</string>
+    <string name="Nome">Name</string>
+    <string name="CPF">CPF</string>
+    <string name="CEP">CEP</string>
+    <string name="Endereco_numenro">Address, Number</string>
+    <string name="Confirmar_senha">Confirm password</string>
+    <string name="Masculino">Male</string>
+    <string name="Feminino">Feminine</string>
+    <string name="Aceito_os_termos_de_uso">I accept the terms of use</string>
+    <string name="Concluir">Conclude</string>
+    <string name="Didite_email">Enter your email and we will reset your password.</string>
+    <string name="Redefinir_senha">Reset your password</string>
+    <string name="Bem_vindo">Welcome</string>
+    <string name="Editar_foto">Edit photo</string>
+    <string name="Add_carrinho">Add to cart</string>
+    <string name="Nova_conta">New account</string>
+    <string name="Sem_pedidos">No previous orders</string>
+    <string name="Carrinho_vazio">Your shopping cart is empty</string>
+</resources>

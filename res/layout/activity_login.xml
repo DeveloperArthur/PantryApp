@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="10"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundloginresize"
+    tools:context=".LoginActivity"
+    >
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="80dp"
+            >
+
+            <ImageView
+                android:id="@+id/idLogo"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/icon"
+                />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:orientation="vertical"
+                >
+
+                <EditText
+                    android:layout_gravity="center"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:textColorHint="@color/colorTextLight"
+                    android:textColor="@color/colorTextLight"
+                    android:hint="@string/Usuario"
+                    android:id="@+id/idUsuario"
+                    />
+
+                <EditText
+                    android:layout_gravity="center"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:textColorHint="@color/colorTextLight"
+                    android:textColor="@color/colorTextLight"
+                    android:inputType="textPassword"
+                    android:hint="@string/Senha"
+                    android:id="@+id/idSenha"
+                    />
+
+                <Button
+                    android:background="@color/colorPrimary"
+                    android:layout_gravity="center"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:textColor="@color/colorTextLight"
+                    android:text="@string/Entrar"
+                    android:onClick="validarLogin"
+                    />
+
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            >
+
+            <TextView
+                android:gravity="left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextLight"
+                android:text="@string/Criar_conta"
+                android:onClick="AbrirNewAccont"
+                android:id="@+id/idAbrirConta"
+                />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="10"
+                />
+
+            <TextView
+                android:gravity="right"
+                android:id="@+id/idAbrirRecuperar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/Esqueceu_a_senha"
+                android:onClick="AbrirRecover"
+                android:textColor="@color/colorTextLight"
+                />
+
+        </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".ProdutoActivity">
+    <TextView
+        android:id="@+id/nomepreoduto"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:textSize="40dp"
+        android:text="Nome do produto"/>
+    <ImageView
+        android:id="@+id/fotoproduto"
+        android:layout_width="wrap_content"
+        android:layout_weight="5"
+        android:layout_height="0dp"
+        android:src="@drawable/file"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_height="0dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:textSize="40dp"
+            android:text="R$"/>
+        <TextView
+            android:id="@+id/valorpreoduto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:textSize="40dp"
+            android:text="00,00"/>
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/descproduto"
+        android:layout_width="wrap_content"
+        android:layout_weight="2"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="20dp"
+        android:text="Aqui fica a descrição do produto"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:layout_height="0dp">
+        <Spinner
+            android:id="@+id/quantprodutos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/quant"/>
+        <Button
+            android:id="@+id/addcarrinho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/Add_carrinho"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
