@@ -4,6 +4,7 @@ Back-end com @DeveloperArthur
 
 Front-end com @devwallace
 
+
 # Versionamentos e contribuições
 
 PantryApp_0.1.0: Wallace
