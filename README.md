@@ -1,5 +1,7 @@
 # Pantry App
 
+Repositório destinado para o Projeto Android do 7º semestre curso de Ciência da computação da UNINOVE, eleito pelo próprio professor como "o melhor projeto da sala"
+
 Back-end com @DeveloperArthur
 
 Front-end com @devwallace
